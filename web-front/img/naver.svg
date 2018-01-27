@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>E51C3BD1-DF73-4C06-8FE6-5D18D83F06F9</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="W001_login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-604.000000, -632.000000)">
+        <g id="login_popup" transform="translate(597.000000, 626.000000)">
+            <g id="btn_socialmedia" transform="translate(1.000000, 0.000000)">
+                <g id="logo">
+                    <g id="naver" transform="translate(6.000000, 6.000000)">
+                        <path d="M0,16 C0,7.16344357 7.16344357,0 16,0 C24.8365564,0 32,7.16344357 32,16 C32,24.8365564 24.8365564,32 16,32 C7.16344357,32 0,24.8365564 0,16 Z" id="back" fill="#1EC800"></path>
+                        <polygon id="Fill-4" fill="#FFFFFF" points="18.0234667 10.1666667 18.0234667 16.0526667 13.9908 10.1666667 9.63346667 10.1666667 9.63346667 21.8333333 13.9768 21.8333333 13.9768 15.9473333 18.0094667 21.8333333 22.3668 21.8333333 22.3668 10.1666667"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,16 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>발표빨</title>
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="js/text-control.js"></script>
+    <script src="js/text-slide.js"></script>
   </head>
-  <body>
+  <body onresize="changeScreenSize()">
     <div class="container">
       <div class="row">
-        
+        <div class="top-wrapper">
+          <div class="font-controller-wrapper">
+            <div class="slide-container">
+              <div class="font-size-wrapper range-wrapper">
+                <label class="range-label">크기</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="font-size">
+              </div>
+              <div class="line-height-wrapper range-wrapper">
+                <label class="range-label">행간</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="line-height">
+                </div>
+              <div class="letter-spacing-wrapper range-wrapper">
+                <label class="range-label">자간</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="letter-spacing">
+              </div>
+            </div>
+            <div class="reverse-btn-container">
+              <button onclick="reverseStyle()">
+                Dark Mode
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="script-wrapper">
+          <div class="script-bottom-fade-out"></div>
+          <div class="script-content text-style-custom">
+            <span class="script-ready">
+            </span>
+          </div>
+        </div>
+        <div class="stop-watch-wrapper">
+          <div class="stop-watch-content">
+            남은 시간 <span class="stop-watch">24 : 07</span>
+          </div>
+        </div>
       </div>
     </div>
   </body>

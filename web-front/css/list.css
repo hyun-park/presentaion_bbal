@@ -1,0 +1,85 @@
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body {
+  font-family: 'NanumSquareRound',sans-serif !important;
+}
+
+.header {
+  height: 7vh;
+}
+
+.logo-wrapper {
+  height: 100%;
+  padding: 0 20px;
+  width:160px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.main {
+  padding-top:15px;
+  height: 93vh;
+  background-color: #f7f8f9;
+}
+
+.main > .container {
+  width:1000px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.title {
+  padding-left: 15px;
+  font-size: 28px;
+}
+
+.script-item-wrapper {
+  padding: 15px 0;
+}
+
+.add-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-text-wrapper {
+  color: #ff185a;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:20px;
+}
+
+.script-item {
+  width: 300px;
+  height:200px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px 0 rgba(96, 96, 103, 0.1);
+  border: solid 1px #e7e7e7;
+
+  padding: 26px 24px;
+
+}
+
+.script-item > .script-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #41414c;
+}
+
+.script-item > .script-content {
+  font-size: 14px;
+  color: #afafbc;
+  height: 70%;
+}
+
+.time-wrapper {
+  position: absolute;
+  top:0;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  z-index: 999;
+}

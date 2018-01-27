@@ -1,0 +1,30 @@
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body {
+  font-family: 'NanumSquareRound',sans-serif !important;
+  color: #ffffff;
+}
+
+
+.background {
+  height: 100vh;
+  background-image: url("../img/bg-visual@2x.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-wrapper {
+
+}
+
+.naver-wrapper {
+  /* padding-top: 100px; */
+}
+
+.info-wrapper {
+  text-align: center;
+}

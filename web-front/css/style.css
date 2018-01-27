@@ -1,0 +1,155 @@
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* controller */
+
+.top-wrapper {
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  background-color: #000000;
+  opacity: 0;
+}
+
+.top-wrapper:hover {
+  opacity: 1;
+}
+
+.font-controller-wrapper {
+  font-family: 'NanumSquareRound',sans-serif;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  height:10vh;
+  margin: 0 auto;
+}
+
+.slide-container {
+  width: 65%; /* Width of the outside container */
+  display: flex;
+  justify-content: space-between;
+}
+
+.reverse-btn-container {
+  width: 35%;
+  text-align: right;
+}
+
+.reverse-btn-container button {
+  width: 130px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background:rgba(0,0,0,0.0);
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+
+}
+
+.range-wrapper {
+  width: 30%;
+}
+
+.range-label {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+/* The slider itself */
+.slider {
+    margin-right: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    outline: none;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ff185a;
+    border-radius: 25px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ff185a;
+    border-radius: 25px;
+    background: #ffffff;
+    cursor: pointer;
+}
+
+.script-wrapper {
+  width: 87%;
+  margin: 0 auto;
+  height: 82vh;
+  overflow: hidden;
+}
+
+.script-bottom-fade-out {
+  position: absolute;
+  width:100%;
+  height: 82vh;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, transparent, transparent, transparent, black);
+}
+
+.script-content {
+  padding-top:80px;
+  font-family: 'Nanum Barun Gothic',sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: 0px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  margin-right: 14px;
+  padding-right: 28px;
+}
+
+.text-style-custom {
+    word-spacing: 5px;
+
+}
+
+.script-finished {
+  color: #ff185a;
+}
+
+.script-ready {
+  color: #ffffff;
+  padding-bottom: 150px;
+}
+
+
+.stop-watch-wrapper {
+  font-family: 'NanumSquareRound',sans-serif;
+  background-color: #ffffff;
+  height:18vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stop-watch-content {
+  color: #afafbc;
+  font-size: 3.5em;
+}
+
+.stop-watch {
+  color: #000000;
+  font-size: 1.2em;
+}

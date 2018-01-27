@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="244px" height="44px" viewBox="0 0 244 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>7D5255C4-2112-45C3-82F5-BF0E723027A2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="W001_login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-598.000000, -626.000000)">
+        <g id="login_popup" transform="translate(597.000000, 626.000000)">
+            <g id="btn_socialmedia" transform="translate(1.000000, 0.000000)">
+                <rect id="Rectangle" fill="#1EC800" x="0" y="0" width="244" height="44" rx="4"></rect>
+                <text id="네이버-아이디로-로그인" font-family="NanumSquareRoundOTFEB, NanumSquareRoundOTF" font-size="14" font-weight="600" letter-spacing="-0.5" fill="#FFFFFF">
+                    <tspan x="61.8" y="27">네이버 아이디로 로그인</tspan>
+                </text>
+                <g id="logo">
+                    <path d="M4,0 L44,0 L44,44 L4,44 C1.790861,44 2.705415e-16,42.209139 0,40 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-2" fill="#1EC800"></path>
+                    <g id="naver" transform="translate(6.000000, 6.000000)">
+                        <path d="M0,16 C0,7.16344357 7.16344357,0 16,0 C24.8365564,0 32,7.16344357 32,16 C32,24.8365564 24.8365564,32 16,32 C7.16344357,32 0,24.8365564 0,16 Z" id="back" fill="#1EC800"></path>
+                        <polygon id="Fill-4" fill="#FFFFFF" points="18.0234667 10.1666667 18.0234667 16.0526667 13.9908 10.1666667 9.63346667 10.1666667 9.63346667 21.8333333 13.9768 21.8333333 13.9768 15.9473333 18.0094667 21.8333333 22.3668 21.8333333 22.3668 10.1666667"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

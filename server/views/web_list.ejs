@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> script list </title>
+  </head>
+  <body>
+    <div> <%= result.length %> </div>
+    <% if(result[0]){ %>
+
+      <%for(var i=0;i < result.length; i++){ %>
+        <div> <%= result[i].title %> </div>
+        <div> <%= result[i].content %> </div>
+      <%}%>
+
+    <%} %>
+  </body>
+</html>
