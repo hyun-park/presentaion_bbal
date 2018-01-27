@@ -6,8 +6,8 @@
 
 ### [POST] /scripts
 
-### [PUT] /scripts/{id}
+### [PUT] /script/{id}
 
-### [DELETE] /scripts/{id}
+### [DELETE] /script/{id}
 
 ## PRESENTATION
